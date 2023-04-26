@@ -5,8 +5,8 @@
 // @description  A userscript that adds custom themes and a few other additional customization options to ChatGPT.
 // @author       Jekyll
 // @match        *://chat.openai.com/*
-// @downloadURL  https://raw.githubusercontent.com/PowfuArras/ChatGPT-Themes/master/userscript.js
-// @updateURL    https://raw.githubusercontent.com/PowfuArras/ChatGPT-Themes/master/userscript.js
+// @downloadURL  https://raw.githubusercontent.com/PowfuArras/ChatGPT-Themes/master/ChatGPT%20Themes.user.js
+// @updateURL    https://raw.githubusercontent.com/PowfuArras/ChatGPT-Themes/master/ChatGPT%20Themes.user.js
 // @run-at       document-start
 // ==/UserScript==
 
