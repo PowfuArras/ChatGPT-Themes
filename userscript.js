@@ -10,4 +10,15 @@
 // @run-at       document-start
 // ==/UserScript==
 
-console.log("Hello World");
+"use strict";
+async function init() {
+	"use strict";
+	console.log("Hello World");
+}
+
+init();
+
+if (document.body == null) {
+	const target = (typeof unsafewindow) === "undefined" ? window : unsafewindow;
+	target.addEventListener("DOMContentLoaded", init);
+} else init();
